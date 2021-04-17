@@ -46,6 +46,22 @@
         .h4 { 
             font-size: 1rem;
         }
+        .hero-text {
+            padding-top: 1.5rem;
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+
+        .hero-text .display-2 {
+            font-size: 10vw;
+            font-weight: 300;
+            line-height: 1.2;
+        }
+
+        .hero-text {
+            padding-top: 3rem;
+        }
     }
 
     .hero-text {
@@ -95,7 +111,7 @@
 
     .newsletter-subscribe {
         color: #313437;
-        background-color: #ffffff;
+        background-color: #eff1f4;
         padding: 55px 74px
     }
 
@@ -129,7 +145,7 @@
     }
 
     .newsletter-subscribe form .form-control {
-        background: #eff1f4;
+        background-color: #ffffff;
         border: none;
         border-radius: 3px;
         box-shadow: none;
@@ -175,7 +191,7 @@
 
   <body>
     <nav class="position-absolute w-100 navbar navbar-fixed-top navbar-expand-lg navbar-light" style="z-index: 1;">
-        <a class="navbar-brand text-light" href="#">Adventum Outdoor Adventures</a>
+        <a class="navbar-brand text-light" href="#">Adventum</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -197,8 +213,9 @@
 
     <div class="hero-image"> 
         <div class="hero-text">
-            <h1 class="display-2">Sick of being cooped up?</h1>
-            <p class="h4">So are we. Grab some friends, get out and have some fun.</p>
+            <h1 class="display-2">Adventum</h1>
+            <h1 class="display-2"> Outdoor Adventures</h1>
+            <p class="h4">Grab some friends, get out and have some fun.</p>
             <button class="my-2">Learn more</button>
         </div>
     </div>
@@ -255,7 +272,8 @@
 
         <hr class="featurette-divider">
 
-        <div class="newsletter-subscribe container">
+        <div class="w-100 ">
+          <div class="newsletter-subscribe container">
             <div class="container">
                 <div class="intro">
                     <h2 class="text-center">Stay in the loop!</h2>
@@ -267,6 +285,8 @@
                 </form>
             </div>
         </div>
+        </div>
+
 
       <footer class="pt-4 my-md-5 pt-md-5 border-top">
         <div class="row">
